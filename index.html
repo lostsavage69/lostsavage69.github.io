@@ -1,37 +1,52 @@
 <html>
 
 <head>
-<meta charset=“UTF-8”>
-<meta name=“viewport” content=“width=device-width, initial-scale=1.0”>
-<meta http-equiv=“X-UA-Compatible” content=“ie=edge”>
-	
-<link rel="icon", href="images/webicon.png">
-<link rel="stylesheet", href="main.css">	
+<base href="C:/Users/DLaws/OneDrive/Desktop/website/" target="_blank">
 <title> Home </title>
+<link rel="icon", href="images/webicon.png">
+<link rel="stylesheet" href="style.css">
+
+<script defer src="login.js"> </script>
 </head>
 
 <body>
 
 <h1> Useful Links: </h1><br>
 
-<div class="collegeheader">
-<h2> College related: </h2>
-</div>
+
+<h2 id="collegeheader">College related: </h2>
+
 	
 <div class="collegelinks">
-<p> Teams: <a href="https://teams.microsoft.com"> https://teams.microsoft.com </a></p>
-<p> Outlook: <a href="https://outlook.office.com/mail"> https://outlook.office.com </a></p>
-<p> Moodle: <a href="https://moodle.nclt.ac.uk/login/index.php"> https://moodle.nclt.ac.uk </a></p><br>
-</div>	
-
-<div class="personalheader">
-<h2> Personal links: </h2>
-</div>
-
-<div class="personallinks">
 <p> Youtube: <a href="https://www.youtube.com"> https://www.youtube.com </a></p>
 <p> Spotify: <a href="https://open.spotify.com"> https://spotify.com </a></p><br>
 </div>
+
+
+<h2 id="personalheader">Personal links: </h2>
+</div>
+
+<div class="personallinks">
+<p> Teams: <a href="https://teams.microsoft.com"> https://teams.microsoft.com </a></p>
+<p> Outlook: <a href="https://outlook.office.com/mail"> https://outlook.office.com </a></p>
+<p> Moodle: <a href="https://moodle.nclt.ac.uk/login/index.php"> https://moodle.nclt.ac.uk </a></p>
+</div>
+
+<div class="signInMain">
+<br><br>
+<h2> Sign in: </h2>
+
+<div id="error"> </div><br>
+<form id="form" action="notices.html" method="post">
+<label for "username"> Username: </label><br>
+<input autocomplete="off" type="text" id="username" name="username"><br>
+
+<label for "password"> Password: </label><br>
+<input autocomplete="off" type="password" id="password" name="password"><br><br>
+
+<input type="submit" value="Submit">
+</form>
+
 
 </body>
 
