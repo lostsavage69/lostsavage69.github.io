@@ -1,0 +1,33 @@
+
+#collegeheader{
+	color: orange;
+}
+
+.collegelinks{
+
+}
+
+#personalheader{
+	color: magenta;
+	
+}
+
+.personallinks{
+
+}
+
+#noticesHeading{
+	color: red;
+}
+
+
+
+body{
+	text-align: center;
+	color: white;
+	
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url("images/bg.jpg");
+}
