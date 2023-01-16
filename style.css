@@ -4,7 +4,7 @@
 }
 
 .collegelinks{
-
+	color: white;
 }
 
 #personalheader{
@@ -13,7 +13,7 @@
 }
 
 .personallinks{
-
+	color: white;
 }
 
 #noticesHeading{
@@ -21,13 +21,32 @@
 }
 
 
+h1{
+	color: white;
+}
+
+h2{
+	color: white;
+}
 
 body{
 	text-align: center;
-	color: white;
+	color: red;
 	
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-image: url("images/bg.jpg");
+}
+
+#fixtureimage{
+	width: 720px;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+#links{
+	color: left;
 }
