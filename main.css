@@ -1,3 +1,4 @@
+
 #collegeheader{
 	color: orange;
 }
@@ -15,7 +16,7 @@
 	color: white;
 }
 
-#noticesHeading{
+.noticesHeading{
 	color: red;
 }
 
@@ -38,10 +39,28 @@ body{
 	background-image: url("images/bg.jpg");
 }
 
-#fixtureimage{
-	width: 600px;
-	height: 450px;
+.fixtureimage{
+	width: 720px;
+	height: 500px;
 	margin-left: auto;
 	margin-right: auto;
-	
+}
+
+#links{
+	color: blue;
+}
+
+.home{
+	text-align: centre;
+}
+
+#esportsHeading{
+	color: darkred;
+}
+
+#esports{
+	color: white;
+}
+#linksHeading{
+	color: red;
 }
