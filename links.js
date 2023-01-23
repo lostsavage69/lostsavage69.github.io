@@ -1,23 +1,23 @@
-var username1 = "";
-var hashtag1 = "";
+var username1 = "Jak3y";
+var hashtag1 = "1968";
 
-var username2 = "";
-var hashtag2 = "";
+var username2 = "Dazz6544";
+var hashtag2 = "EUW";
 
-var username3 = "";
-var hashtag3 = "";
+var username3 = "Krumonde";
+var hashtag3 = "1146";
 
-var username4 = "";
-var hashtag4 = "";
+var username4 = "Mrlonewolf1";
+var hashtag4 = "3609";
 
-var username5 = "";
-var hashtag5 = "";
+var username5 = "Phinnian";
+var hashtag5 = "EUW";
 
-var username6 = "";
-var hashtag6 = "";
+var username6 = "jasiu123";
+var hashtag6 = "eune";
 
-var username7 = "";
-var hashtag7 = "";
+var username7 = "Lockstar64";
+var hashtag7 = "6432";
 
 var link1 = "https://tracker.gg/valorant/profile/riot/" + username1 + "%23" + hashtag1 + "/overview";
 var link2 = "https://tracker.gg/valorant/profile/riot/" + username2 + "%23" + hashtag2 + "/overview";
